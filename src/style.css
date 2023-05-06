@@ -4,47 +4,60 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    background:#f0f2f5;
 }
-html, body{
-    height:100%;
+
+header{
+    padding-top:5px;
+    background:#f0f2f5;
+
 }
 .context{
+    background:#f0f2f5;
     width: 100%;
     height:100vh;
-    background: #f0f2f5;
-    display:flex;
-    align-items: center;
-    flex-direction: column;
 }
-.logo{
-    width: 18%;
-    height:12vh;
-    margin-top: 6vh;
+header{
+    margin-top:50px;
+    display: flex;
+    justify-content:center ;
 }
+.facebook{
+    position:relative;
+    top:-10px;
+    width:250px;
+}
+
+.facebook img{
+    width:100%;
+}
+
 .container{
     width: 400px;
     height:400px;
-    background:white;
+    background:#fff;
     display: flex;
     align-items:center;
     flex-direction: column;
-    border: 1px solid #00000034;
     border-radius:10px;
     padding-top:20px;
     -webkit-box-shadow: 0px 6px 15px -3px rgba(0,0,0,0.29);
     -moz-box-shadow: 0px 6px 15px -3px rgba(0,0,0,0.29);
     box-shadow: 0px 6px 15px -3px rgba(0,0,0,0.29);
+    border:none;
 }
 span{
     margin:10px;
+    background:#fff;
 }
 .form{
     width: 90%;
     gap: 10px;
     margin-top:10px;
+    background:#fff;
 }
 .formgroup{
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 input{
     width: 100%;
@@ -77,6 +90,7 @@ fieldset{
     border-top:1px solid rgba(8, 8, 8, 0.322) ;
     width:90%;
     margin:0 auto;
+    background:#fff;
 }
 legend{
     margin: 0 auto;
@@ -84,8 +98,10 @@ legend{
     color:rgba(82,82,82,0.9);
     font-size: 18px;
     text-align: center;
+    background:#fff;
 }
-Button.nc{
+Button.nc, Button.nc:hover{
+    border: 1px solid #42b72a;
     background:#42b72a;
     margin:20px auto;
     width:50%;

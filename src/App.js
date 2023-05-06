@@ -1,13 +1,15 @@
-import { Container, Button, Form } from 'react-bootstrap';
+import { Container, Button, Form} from 'react-bootstrap';
 import './style.css';
 
 function App() {
   return (
     <div className="App">
       <div className="context">
-        <div className="logo">
-          <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook Logo" />
-        </div>
+        <header>  
+          <div className="facebook">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="" />  
+          </div>
+        </header>
         <div className="container flex">
           <span>Entrar no Facebook</span>
           <Form className="form flex">
@@ -30,7 +32,7 @@ function App() {
               <legend>ou</legend>
             </fieldset>
           </Form>
-        <Button type="submit" className="nc"> Criar Conta</Button>
+        <Button type="submit" className='nc'> Criar Conta</Button>
         </div>
 
       </div>
